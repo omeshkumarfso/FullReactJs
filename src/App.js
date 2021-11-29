@@ -1,5 +1,5 @@
 import Expenses from "./components/Expenses";
-// import Test from "./test/Test.js";
+import Test from "./test/Test.js";
 function App() {
 
   const expenses = [
