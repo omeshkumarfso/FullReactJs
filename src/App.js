@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses.js";
+import NewExpense from "./components/NewExpense/NewExpense.js";
 // import Test from "./test/Test.js";
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <div>
-      <h2 style={{color:"white"}}>Yogic</h2>
+     <NewExpense/>
      <Expenses items={expenses} />
   {/* <Test ></Test> */}
     </div>
